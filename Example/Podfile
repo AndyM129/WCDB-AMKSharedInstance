@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WCDB-AMKSharedInstance_Example' do
+  pod 'WCDB-AMKSharedInstance', :path => '../'
+
+  target 'WCDB-AMKSharedInstance_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
